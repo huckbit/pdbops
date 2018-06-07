@@ -10,6 +10,7 @@ The script performs the following actions:
 
 ### Setup
 
+- Clone the repository
 - create a new config file `config.cng` from the example file.
 - insert the database parameters
 
