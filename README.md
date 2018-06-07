@@ -3,10 +3,10 @@
 Script to automate the database import on mySql / MariaDB.
 
 The script performs the following actions:
-1. dump of the current database
-2. drop of the current database
-3. creation of the new database with the same name
-4. import of the selected (new) dump
+1. backup dump (current database) 
+2. drop (current database)
+3. new database creation (using the same name)
+4. selected database (new) dump import
 
 ### Setup
 
@@ -23,7 +23,7 @@ host = localhost
 ```
 
 ### Import a dump
-- Create a folder `import` and insert here all the dump files you want to import.
+- In the folder `import` insert the dump files you want to import.
     **NOTE:** The file must to be in the format `filename.sql`.
 - Launch the script with:
 
