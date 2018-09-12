@@ -12,6 +12,7 @@ The script performs the following actions:
 
 - Clone the repository
 - Install the package [PymySQL](https://github.com/PyMySQL/PyMySQL#installation).
+- You must to be able to launch `mysql` from the command line [(doc here)](https://dev.mysql.com/doc/mysql-getting-started/en/#mysql-getting-started-connecting).
 - Create a new config file `config.cng` from the example file.
 - Insert the database parameters
 
