@@ -11,8 +11,9 @@ The script performs the following actions:
 ### Setup
 
 - Clone the repository
-- create a new config file `config.cng` from the example file.
-- insert the database parameters
+- Install the package [PymySQL](https://github.com/PyMySQL/PyMySQL#installation).
+- Create a new config file `config.cng` from the example file.
+- Insert the database parameters
 
 e.g.:
 
@@ -23,7 +24,7 @@ password = root
 host = localhost
 ```
 
-### Import a dump
+### Import a new dump
 - In the folder `import` insert the dump files you want to import.
     **NOTE:** The file must to be in the format `filename.sql`.
 - Launch the script with:
